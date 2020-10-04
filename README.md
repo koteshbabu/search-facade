@@ -25,7 +25,6 @@ I have assumed the entity would be in the following structure
   Make sure mongo db is running on your local my running the following commands
   
  1) docker pull mongo:latest
- 2) docker  run --name mongo-koti -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=test  -e MYSQL_PASSWORD=password -d mysql:latest
  3) docker run -d -p 27777:27017  --name mongo-koti mongo:latest
  4) docker ps
  
