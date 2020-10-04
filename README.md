@@ -31,7 +31,7 @@ I have assumed the entity would be in the following structure
  Now you should see mongodb running on your local
  
  5) Go to the root directory of this project 
- 6) docker build -f Dockerfile -t search-facade .
+ 6) docker build . -f Dockerfile -t search-facade .
  7) docker run -p 6868:6868 --name search-facade --link mongo-koti:mongo -d search-facade
  8) docker logs search-facade
  9) docker ps 
